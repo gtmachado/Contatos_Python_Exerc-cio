@@ -110,11 +110,14 @@ def del_contato():
                 print()
                 print("Contato deletado com sucesso.")
                 print()
+            else:
+                print("Dígito do contato inválido.")
 
         except ValueError:
             print("Dígito do contato inválido.")
 
     else:
+
         return
 
 def pesq_contato():
